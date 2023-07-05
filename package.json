@@ -1,0 +1,21 @@
+{
+  "name": "baiduyun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:request": "yarn workspace @imnull/request build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^7.1.1"
+  },
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "dependencies": {}
+}

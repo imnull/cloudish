@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+*.log
+*.yml
+*.yaml
+package-lock.json
+yarn.lock
+.DS_Store
+lib

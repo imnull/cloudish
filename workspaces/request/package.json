@@ -1,0 +1,27 @@
+{
+  "name": "@imnull/request",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "nodejs",
+    "request"
+  ],
+  "author": "marvin <imnull@outlook.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/request.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "tsc src/request --outDir lib -d -m commonjs -t es5 --esModuleInterop"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
