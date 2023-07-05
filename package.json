@@ -6,7 +6,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:request": "yarn workspace @imnull/request build"
+    "build:request": "yarn workspace @imnull/request build",
+    "build": "lerna run build",
+    "pub": "lerna publish"
   },
   "keywords": [],
   "author": "",
