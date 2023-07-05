@@ -25,7 +25,8 @@
     "typescript": "^5.1.6"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
-  "gitHead": "0cf25643fe64e2588c7e6303ca03f01f740ceb0e"
+  "gitHead": "785e76f3c1410d6a0a813dc5d141ac3c05f668d4"
 }
