@@ -13,7 +13,8 @@
     "lib"
   ],
   "scripts": {
-    "test": "ts-node test.ts"
+    "test": "ts-node test.ts",
+    "build": "tsc src/baiduyun.ts --outDir lib -d -m commonjs -t es5 --esModuleInterop"
   },
   "dependencies": {
     "@imnull/request": "*",

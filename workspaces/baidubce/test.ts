@@ -1,7 +1,7 @@
 import path from 'path'
 import fs from 'fs'
 
-import { getConfig, getAccessToken, colourize, dehaze, contrastEnhance, imageWorkflow } from './src'
+import { getConfig, getAccessToken, colourize, dehaze, contrastEnhance, imageWorkflow } from './src/baiduyun'
 
 const config = getConfig()
 console.log(config)
